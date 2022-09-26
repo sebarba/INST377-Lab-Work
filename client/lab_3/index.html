@@ -1,5 +1,54 @@
-<!--
-    Replace this with your working code from Lab 2, and include:
-    - The styles in this folder's `style.css`
-    - The script in script.js, which should be included via a `<script src="script.js" >` call before your closing </body> tag 
--->
+<!DOCTYPE html>
+
+<html lang = 'en'>
+<head>
+    <meta charset='UTF-8'/>
+    <meta http-equinv="X-UA-Compatible" content = "IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sophia Barba's Lab 2 For INST377</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header"><h1>Sophia Barba's Lab 2 For INST377</h1></header>
+        <div class="container">
+            <div class="left_section box">
+                <header><h2>Album Names</h2></header>
+                <ol class="box">
+                    <li>Future - I Never Liked You</li>
+                    <li>Girlpool - Forgiveness</li>
+                    <li>Koffee - Gifted</li>
+                    <li>Kendrick Lamar - Mr. Morale and the Big Steppers</li>
+                    <li>Harry Styles - Harry's House</li>
+                </ol>
+            </div>
+            <div class="right_section box">
+                <h2>Image Carousel</h2>
+                <div class = "carousel">
+                    <button class = "prev">prev</button>
+                    <div class="slides">
+                        <div class="carousel_item visible"><img id="slide_1" src="images2/penguin1.jpeg" alt="A king penguin" /></div>
+                        <div class="carousel_item hidden"><img id="slide_2" src="images2/penguin2.jpeg" alt="Two emperor penguins" /></div>
+                        <div class="carousel_item hidden"><img id="slide_3" src="images2/penguin3.jpeg" alt="A group of emperors" /></div>
+                        <div class="carousel_item hidden"><img
+                            id="slide_4"
+                            src="images2/penguin4.jpeg"
+                            alt="A adelie penguin"
+                        /></div>
+                    </div>
+                    <button class = "next">next</button>
+                </div>
+                <div class="box">
+                    <p><strong>DESCRIPTIONS OF THE IMAGES ABOVE</strong></p>
+                    <p>A king penguin</p>
+                    <p>Two emperor penguins</p>
+                    <p>A group of emperors</p>
+                    <p>A adelie penguin</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer"><p>MY GITHUB ACCOUNT NAME <a href='https://www.github.com/sebarba'>sebarba</a>.</p></footer>
+    <script src="script.js"></script>
+</body>
+</html>

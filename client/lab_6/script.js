@@ -2,7 +2,7 @@
 
 /*
   Hook this script to index.html
-  by adding `<script src="script.js">` just before your closing `</body>` tag
+  by adding `<scipt src="script.js">` just before your closing `</body>` tag
 */
 
 /*
